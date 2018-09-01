@@ -52,6 +52,14 @@ Router::scope('/', function (RouteBuilder $routes) {
      * its action called 'display', and we pass a param to select the view file
      * to use (in this case, src/Template/Pages/home.ctp)...
      */
+
+    $json = json_decode(file_get_contents('http://localhost:9292/contents'));
+
+    foreach ($json as $obj) {
+        $routes->connect('/' . $obj->url, ['controller' => 'Pages', 'action' => 'display', $obj->content_type, 'title' => $obj->title]);
+
+    }
+
     $routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
 
     /**
