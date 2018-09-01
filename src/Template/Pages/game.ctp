@@ -26,7 +26,7 @@
 	curl_close($req);
 
 	$json = json_decode($resp);
-	print_r($json);
+	// print_r($json);
 
     ?>
     </pre>
