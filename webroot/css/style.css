@@ -319,6 +319,7 @@ pre {
 }
 
 .top-bar.expanded .title-area {
+    color: white;
     background: #01545b;
 }
 

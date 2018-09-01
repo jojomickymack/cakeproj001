@@ -42,7 +42,7 @@ $cakeDescription = 'coolstuff';
 </head>
 <body>
     <nav class="top-bar expanded" data-topbar role="navigation">
-        <h1 class="title-area large-3 medium-4 columns">default ctp</h1>
+        <h1 class="title-area large-3 medium-4 columns">reverie.fun</h1>
     </nav>
     <nav class="large-3 medium-4 columns" id="actions-sidebar">
         <ul class="side-nav">
