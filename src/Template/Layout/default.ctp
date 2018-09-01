@@ -32,6 +32,13 @@ $cakeDescription = 'coolstuff';
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
+    <style>
+    @media all and (max-width: 640px) {
+        #actions-sidebar {
+            display: none;
+        }
+    }
+    </style>    
 </head>
 <body>
     <nav class="top-bar expanded" data-topbar role="navigation">
