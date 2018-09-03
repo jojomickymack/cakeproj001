@@ -96,7 +96,7 @@ Let's remove jquery and add phaser 3 in the www folder. 'npm uninstall jquery' a
 
 	<script type="text/javascript" src="node_modules/phaser/dist/phaser.js"></script>
 
-Remove the js that you had earlier and replace it with this code. It's a simple phaser 3 scene. The assets are available [here](blog_data/web_apps/assets.7z) and they belong in your 'www' directory in a folder called 'assets'.
+Remove the js that you had earlier and replace it with this code. It's a simple phaser 3 scene. The assets are available [here](http://www.reverie.fun/blog_data/web_apps/assets.7z) and they belong in your 'www' directory in a folder called 'assets'.
 
     let config = {
         type: Phaser.AUTO,
@@ -154,7 +154,7 @@ Basically, at the top of the file you see the config object, which is passed to 
 
 I really like phaser 3's tweening api - you can see that the tween is added to the scene and 'monkey' is given as the target with various other properties of the tween. To learn more about the various other preset tweens, check out the [phaser 3 examples](https://labs.phaser.io/index.html?dir=tweens).
 
-If the assets are in the right place (and the latest version of phaser hasn't depreciated these function calls already) you should see a leaping rabid monkey in the jungle, [just like this one](games/rabid-monkey).
+If the assets are in the right place (and the latest version of phaser hasn't depreciated these function calls already) you should see a leaping rabid monkey in the jungle, [just like this one](http://www.reverie.fun/games/rabid-monkey).
 
 You could put this 'www' on the internet at this point if you wanted, it would work perfectly fine. Let's try one of the other platforms highlighted in the title, starting with NWjs.
 
