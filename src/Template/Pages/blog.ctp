@@ -5,7 +5,6 @@
 ?>
 
 <div class="index large-12 medium-12 columns content">
-    <h3>blog template</h3>
     <pre>
     <?=
 	$myTitle = $this->request->params['title'];
