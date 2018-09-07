@@ -34,5 +34,5 @@
 	<br>
 	<input id='myButton' class='button' type='button' onclick="target='jsgame'; launchGame('<?= $json->iframe_path ?>');" value='Launch Fullscreen'>
 
-	<script type='text/javascript' src='/scripts/buttonScript.js'></script>
+	<script type='text/javascript' src='/js/buttonScript.js'></script>
 </div>
