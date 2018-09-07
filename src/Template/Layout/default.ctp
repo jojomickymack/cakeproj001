@@ -45,16 +45,13 @@ $cakeDescription = 'coolstuff';
         <h1 class="title-area large-3 medium-4 columns">reverie.fun</h1>
     </nav>
     <nav class="large-3 medium-4 columns" id="actions-sidebar">
+        feeling groovy? <?= $this->Html->link('go to the old site', '/groovy'); ?>
         <ul class="side-nav">
             <?php
             $json = json_decode(file_get_contents('http://localhost:9292/contents'));
             //print_r($json);
-            foreach ($json as $obj) {
-                ?> <li> <?=
-                $this->Html->link($obj->title, $obj->url);
-                ?> </li> <?php
-            }
-            ?>
+            foreach ($json as $obj) { ?> <li> <?= $this->Html->link($obj->title, $obj->url); ?> </li> 
+            <?php } ?>
         </ul>
     </nav>    
     <?= $this->Flash->render() ?>
