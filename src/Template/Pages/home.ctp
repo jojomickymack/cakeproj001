@@ -20,7 +20,7 @@
     }
 
     .delay {
-        -webkit-animation-delay: 2s;
+        -webkit-animation-delay: 1s;
         -webkit-animation-duration: 4s;        
     }
 </style>
